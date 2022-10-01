@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AboutMe({ name, picture, about, children }) {
   const { src, width, height, alt } = picture;
   return (
-    <div className="text-center h-screen bg-slate-900 justify-center flex flex-col gap-4 items-center">
+    <div className="p-5 text-center h-screen bg-slate-900 justify-center flex flex-col gap-4 items-center">
       <picture className="relative">
         <Image
           src={src}
